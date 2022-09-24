@@ -8,8 +8,8 @@ module.exports = {
   create: function (name, apellido, edad) {
     const id = characters.length ? characters[characters.length - 1].id + 1 : 1;
 
-    characters.push({ id, name, apellido, edad, wand: {} });
-    // console.log(characters);
+    characters.push({ id, name:"juan", apellido: "caballo", edad:24, wand: {} });
+   console.log(characters);
   },
 
   read: function () {
